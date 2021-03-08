@@ -1,92 +1,136 @@
 <template>
-  <v-layout
-    column
-    justify-center
-    align-center
-  >
-    <v-flex
-      xs12
-      sm8
-      md6
-    >
-      <div class="text-center">
-        <logo />
-        <vuetify-logo />
-      </div>
-      <v-card>
-        <v-card-title class="headline">
-          Welcome to the Vuetify + Nuxt.js template
-        </v-card-title>
-        <v-card-text>
-          <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
-          <p>
-            For more information on Vuetify, check out the <a
-              href="https://vuetifyjs.com"
-              target="_blank"
-            >
-              documentation
-            </a>.
-          </p>
-          <p>
-            If you have questions, please join the official <a
-              href="https://chat.vuetifyjs.com/"
-              target="_blank"
-              title="chat"
-            >
-              discord
-            </a>.
-          </p>
-          <p>
-            Find a bug? Report it on the github <a
-              href="https://github.com/vuetifyjs/vuetify/issues"
-              target="_blank"
-              title="contribute"
-            >
-              issue board
-            </a>.
-          </p>
-          <p>Thank you for developing with Vuetify and I look forward to bringing more exciting features in the future.</p>
-          <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
-          </div>
-          <hr class="my-3">
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank"
-          >
-            Nuxt Documentation
-          </a>
-          <br>
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-          >
-            Nuxt GitHub
-          </a>
-        </v-card-text>
-        <v-card-actions>
-          <v-spacer />
-          <v-btn
-            color="primary"
-            nuxt
-            to="/inspire"
-          >
-            Continue
-          </v-btn>
-        </v-card-actions>
+
+<div>
+   
+
+
+
+    <v-row justify="space-between">
+      <v-col cols="3">
+        <v-img width="50px" src="/icon.png"></v-img>
+      </v-col>
+      <v-col cols="3">
+       <v-btn target="blank" href="https://beta.oneshapp.com/islandbluepools">Shop Swin Gear</v-btn> 
+      </v-col>
+    </v-row>
+
+    <div>
+
+Gonna a use a video background here! 
+
+        Island Blue Pools
+
+        We help you learn to swim quickly and with confidence
+
+Get Started (Takes them to link to sign up)
+
+    </div>
+
+    <div>
+
+      <v-row>
+        <v-col>
+
+                <v-card>
+
+        Experience Swift Results
+Our knowledgeable and
+professional team of trained
+swim coaches will guide you
+through the basics of
+swimming, which will
+increase your confidence in
+the water and ensure you
+experience results in the
+first few lessons
+
       </v-card>
-    </v-flex>
-  </v-layout>
+
+        </v-col>
+
+        <v-col>
+
+                <v-card>
+        Have Fun While Learning
+We want you to enjoy
+yourselves while learning to
+swim, so we incorporate fun
+activities into our lessons.
+Water exercises is also a
+great way to work on your
+fitness.
+
+      </v-card>
+
+        </v-col>
+
+        <v-col>
+
+                <v-card>
+
+        Work to Progressively
+Improve
+Having mastered the basics
+our aim is to continue
+working with you to bring
+you to an intermediate and
+eventually an advanced
+level where you may even
+swim competitively as part
+of a swim club if you
+choose.
+
+      </v-card>
+
+        </v-col>
+      </v-row>
+
+
+
+    </div>
+
+
+    <div>
+      Join Our Learn To Swim Programme (Takes them to form to sign-up)
+    </div>
+
+
+
+    <div>
+      Contact Us
+
+At Island Blue Pools we have developed learn to swim curriculums for all age groups, ranging
+from toddlers to senior citizens. Swimmers have been amazed by the results they achieve while
+participating in our programme. We are happy to have helped swimmers overcome their fear of
+drowning and their own doubts to be able to swim with confidence. Contact us to get started
+
+quickly and with confidence as well.
+    </div>
+
+    <div>
+      Island Blue Pools
+
+Our vision is to provide a platform for every Jamaican to learn how to swim. Approximately 15%
+of Jamaicans can swim, which is a relatively small number for a country surrounded by water. The
+team at Island Blue Pools is focused on changing this statistic, and believe the quality of our
+instruction, affordability and passion for swimming will drive us forward to achieve our vision.
+    </div>
+
+    <div>
+      Follow our socials
+Instagram:
+Facebook:
+    </div>
+
+</div>
+   
+
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import VuetifyLogo from '~/components/VuetifyLogo.vue'
+
 
 export default {
-  components: {
-    Logo,
-    VuetifyLogo
-  }
+
 }
 </script>
