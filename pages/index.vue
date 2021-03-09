@@ -3,14 +3,14 @@
 <div>   
     <div class="video-section">
       <div class="video-container">
-         <video autoplay loop muted src="/PoolDay.mp4"></video>
+         <video autoplay loop muted src="https://res.cloudinary.com/colinhdd/video/upload/v1615265617/PoolDay_zl5r2z.mp4"></video>
       </div>
 
 <div class="site-content pa-3 rounded">
 
 <v-row justify-md="start" justify="center" align="center">
   <v-col cols="6" md="4">
-   <div class="d-flex justify-content-center"> <v-img width="350px" src="/icon.png"></v-img></div> 
+   <div class="d-flex justify-content-center"> <v-img width="350px" src="https://res.cloudinary.com/colinhdd/image/upload/v1615265489/IBP_Logo_Full_Transparent_t6hwdy.png"></v-img></div> 
   </v-col>
   <v-col cols="auto" >
      <p class="ma-0 display-1 text--primary mt-n12 mt-md-0">Island Blue Pools</p>   
@@ -37,7 +37,7 @@
                 <v-card height="500">
                    <v-img
       height="250"
-      src="/quick.jpg"
+      src="https://res.cloudinary.com/colinhdd/image/upload/v1615265489/1c7ba780fd48c40826bf411a039a768a_qtlkf7.jpg"
     ></v-img>
 
                   <v-card-text>
@@ -69,7 +69,7 @@ first few lessons
 
                    <v-img
       height="250"
-      src="/fun.png"
+      src="https://res.cloudinary.com/colinhdd/image/upload/v1615265489/97f90ddaea1d1cc1dfa27e71821a6938_lwx35p.png"
     ></v-img>
 
                   <v-card-text>
@@ -101,7 +101,7 @@ fitness.
 
                                      <v-img
       height="250"
-      src="/pool.webp"
+      src="https://res.cloudinary.com/colinhdd/image/upload/v1615265491/c7d35ee58e1c8a665de9a32956e5b993_vrxrry.webp"
     ></v-img>
 
                   <v-card-text>
