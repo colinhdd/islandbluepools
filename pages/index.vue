@@ -134,51 +134,101 @@ choose.
 
     </v-container>
 
+     <a href="" class="title d-block py-6 my-6 text-decoration-none text-center">Join Our Learn To Swim Programme</a>
 
-    <div style="background-color: #80deff;" class="text-center py-12 my-12">
-     <p>Join Our Learn To Swim Programme </p>
-    </div>
-
-
-
-    <div class="text-center py-md-12 my-12">
-          <p class="display-1 text--primary">
-      Contact Us
-      </p>
-      <p>
-        At Island Blue Pools we have developed learn to swim curriculums for all age groups, ranging
-from toddlers to senior citizens. Swimmers have been amazed by the results they achieve while
-participating in our programme. We are happy to have helped swimmers overcome their fear of
-drowning and their own doubts to be able to swim with confidence. 
-      </p>
-
-
-
-<p>Contact us to get started quickly and with confidence.</p>
-
-
-
-    </div>
-
-    <div style="background-color: #80deff;" class="text-center py-12 my-12">
-       <p class="display-1 text--primary mb-0">
+     <div style="border: 1px solid red; background-color: #fff" class="text-center">
+       <p class="display-1 text--primary mb-0 px-md-16 mx-md-12 mt-16">
        Island Blue Pools
       </p>
-     <p class="px-16">Our vision is to provide a platform for every Jamaican to learn how to swim. </p>
-<p class="px-16 text-left">
+     <p class="px-md-16 mx-md-12">Our vision is to provide a platform for every Jamaican to learn how to swim. </p>
+<v-row justify="center" align="center" style="border: 1px solid blue">
+    <v-col cols="4" md="2" style="border: 1px solid green">
+    <div>
+      <v-img src="/8.png"></v-img>
+    </div>
+  </v-col>
+  <v-col cols="12" md="4" style="border: 1px solid black">
+    <p class="text-left">
   Approximately 15% of Jamaicans can swim, which is a relatively small number for a country surrounded by water. The
 team at Island Blue Pools is focused on changing this statistic, and believe the quality of our
 instruction, affordability and passion for swimming will drive us forward to achieve our vision.
 </p>
+  </v-col>
+</v-row>
 
-    </div>
-
+<v-row justify="center" align="center">
+      <v-col cols="4" md="2" style="border: 1px solid red" order-md="2">
     <div>
-      Follow our socials
-Instagram:
-Facebook:
+      <v-img src="/9.png"></v-img>
+    </div>
+  </v-col>
+
+  <v-col cols="12" md="4" style="border: 1px solid red" order-md="1">
+  <p class="text-left">
+At Island Blue Pools we have developed learn to swim curriculums for all age groups, ranging
+from toddlers to senior citizens. Swimmers have been amazed by the results they achieve while
+participating in our programme. We are happy to have helped swimmers overcome their fear of
+drowning and their own doubts to be able to swim with confidence. 
+        </p>
+  </v-col>
+</v-row>
+
+
+
+
+
     </div>
 
+
+
+
+
+
+    <div class="text-center pa-md-12 ma-md-12 pa-3 ma-3">
+    <p class="display-1 text--primary ma-0">
+      Contact Us
+    </p>
+
+<p class="mb-md-12">Contact us to get started quickly and with confidence.</p>
+    <v-row dense justify="center" align="center">
+<v-col cols="6" md="2" style="border: 1px solid red"><div>
+  <v-img src="/6.png"></v-img>
+  </div>
+  </v-col>
+      <v-col cols="auto">
+        <v-list>
+    <v-list-item-group
+        v-model="selectedItem"
+        color="primary"
+      >
+        <v-list-item
+          v-for="(item, i) in items"
+          :key="i"
+          link
+        >
+          <v-list-item-icon>
+            <v-icon v-text="item.icon"></v-icon>
+          </v-list-item-icon>
+          <v-list-item-content class="text-left">
+            <v-list-item-title v-text="item.text"></v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+      </v-list-item-group>
+    </v-list>
+      </v-col>
+
+      <v-col cols="12">
+        <div>
+              <v-btn fab depressed x-large><v-icon x-large>mdi-facebook</v-icon></v-btn>
+    <v-btn fab depressed x-large href="https://www.instagram.com/islandbluepoolsja/" target="blank"><v-icon x-large>mdi-instagram</v-icon></v-btn>
+        </div>
+      </v-col>
+     
+    </v-row>
+
+    </div>
+
+   
 </div>
    
 
@@ -188,6 +238,14 @@ Facebook:
 
 
 export default {
+
+  data: () => ({
+      items: [
+        { text: '1 (876) 123-4567', icon: 'mdi-phone' },
+        { text: 'islandbluepools@gmail.com', icon: 'mdi-email' },
+        { text: '62, 8 Shortwood Rd, Kingston', icon: 'mdi-map-marker' },
+      ],
+    }),
 
 }
 </script>
