@@ -37,7 +37,7 @@
                 <v-card height="500">
                    <v-img
       height="250"
-      src="https://res.cloudinary.com/colinhdd/image/upload/v1615265489/1c7ba780fd48c40826bf411a039a768a_qtlkf7.jpg"
+      src="https://res.cloudinary.com/colinhdd/image/upload/v1615596126/jeff-dunham-fq673rUxrsQ-unsplash_bchdyy.jpg"
     ></v-img>
 
                   <v-card-text>
@@ -69,7 +69,7 @@ first few lessons
 
                    <v-img
       height="250"
-      src="https://res.cloudinary.com/colinhdd/image/upload/v1615265489/97f90ddaea1d1cc1dfa27e71821a6938_lwx35p.png"
+      src="https://res.cloudinary.com/colinhdd/image/upload/v1615596122/claude-piche-EHKRwpuQ0ts-unsplash_af30il.jpg"
     ></v-img>
 
                   <v-card-text>
@@ -101,7 +101,7 @@ fitness.
 
                                      <v-img
       height="250"
-      src="https://res.cloudinary.com/colinhdd/image/upload/v1615265491/c7d35ee58e1c8a665de9a32956e5b993_vrxrry.webp"
+      src="https://res.cloudinary.com/colinhdd/image/upload/v1615592866/bg2_lyruhv.jpg"
     ></v-img>
 
                   <v-card-text>
@@ -136,19 +136,19 @@ choose.
 
      <a href="" class="title d-block py-6 my-6 text-decoration-none text-center">Join Our Learn To Swim Programme</a>
 
-     <div style="border: 1px solid red; background-color: #fff" class="text-center">
+     <div style="background-color: #fff" class="text-center">
        <p class="display-1 text--primary mb-0 px-md-16 mx-md-12 mt-16">
        Island Blue Pools
       </p>
      <p class="px-md-16 mx-md-12">Our vision is to provide a platform for every Jamaican to learn how to swim. </p>
-<v-row justify="center" align="center" style="border: 1px solid blue">
-    <v-col cols="4" md="2" style="border: 1px solid green">
+<v-row no-gutters justify="center" align="center" >
+    <v-col cols="12" md="4" >
     <div>
-      <v-img src="/8.png"></v-img>
+      <v-img src="https://res.cloudinary.com/colinhdd/image/upload/v1615593660/drew-dau-GA2sc8nIOsk-unsplash_rasqdk.jpg"></v-img>
     </div>
   </v-col>
-  <v-col cols="12" md="4" style="border: 1px solid black">
-    <p class="text-left">
+  <v-col cols="12" md="4">
+    <p class="text-left container">
   Approximately 15% of Jamaicans can swim, which is a relatively small number for a country surrounded by water. The
 team at Island Blue Pools is focused on changing this statistic, and believe the quality of our
 instruction, affordability and passion for swimming will drive us forward to achieve our vision.
@@ -156,15 +156,15 @@ instruction, affordability and passion for swimming will drive us forward to ach
   </v-col>
 </v-row>
 
-<v-row justify="center" align="center">
-      <v-col cols="4" md="2" style="border: 1px solid red" order-md="2">
+<v-row no-gutters justify="center" align="center">
+      <v-col cols="12" md="4" order-md="2">
     <div>
-      <v-img src="/9.png"></v-img>
+      <v-img src="https://res.cloudinary.com/colinhdd/image/upload/v1615593206/bg3_1_bgheq8.jpg"></v-img>
     </div>
   </v-col>
 
-  <v-col cols="12" md="4" style="border: 1px solid red" order-md="1">
-  <p class="text-left">
+  <v-col cols="12" md="4" order-md="1">
+  <p class="text-left container">
 At Island Blue Pools we have developed learn to swim curriculums for all age groups, ranging
 from toddlers to senior citizens. Swimmers have been amazed by the results they achieve while
 participating in our programme. We are happy to have helped swimmers overcome their fear of
@@ -191,8 +191,8 @@ drowning and their own doubts to be able to swim with confidence.
 
 <p class="mb-md-12">Contact us to get started quickly and with confidence.</p>
     <v-row dense justify="center" align="center">
-<v-col cols="6" md="2" style="border: 1px solid red"><div>
-  <v-img src="/6.png"></v-img>
+<v-col cols="6" md="2"><div>
+  <v-img contain src="https://res.cloudinary.com/colinhdd/image/upload/v1615594642/Copy_of_Iphone_Mockup_Imessage_Instagram_Story_wxvl6f.png"></v-img>
   </div>
   </v-col>
       <v-col cols="auto">
