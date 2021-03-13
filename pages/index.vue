@@ -21,7 +21,7 @@
 <p>We help you learn to swim quickly and with confidence</p>
 
         
-<v-btn width="50%" x-large color="primary" class="text-capitalize" target="blank" href="https://beta.oneshapp.com/islandbluepools">Get Started</v-btn>
+<v-btn width="50%" x-large color="primary" class="text-capitalize" target="blank" href="https://form.jotform.com/210708471092856">Get Started</v-btn>
 
 <v-btn text width="50%" x-large color="primary" class="text-capitalize" target="blank" href="https://beta.oneshapp.com/islandbluepools">Shop Swim Gear</v-btn>
 
@@ -106,10 +106,10 @@ fitness.
 
                   <v-card-text>
       <p class="display-1 text--primary">
-        Work to Progressively
+        Advanced Swimming
       </p>
       <div class="text--primary">
-Improve having mastered the basics
+Having mastered the basics
 our aim is to continue
 working with you to bring
 you to an intermediate and
@@ -134,7 +134,7 @@ choose.
 
     </v-container>
 
-     <a href="" class="title d-block py-6 my-6 text-decoration-none text-center">Join Our Learn To Swim Programme</a>
+     <a href="https://form.jotform.com/210708471092856" class="title d-block py-6 my-6 text-decoration-none text-center">Join Our Learn To Swim Programme</a>
 
      <div style="background-color: #fff" class="text-center">
        <p class="display-1 text--primary mb-0 px-md-16 mx-md-12 mt-16">
@@ -142,9 +142,9 @@ choose.
       </p>
      <p class="px-md-16 mx-md-12">Our vision is to provide a platform for every Jamaican to learn how to swim. </p>
 <v-row no-gutters justify="center" align="center" >
-    <v-col cols="12" md="4" >
+    <v-col cols="12" md="4"  class="mr-md-8">
     <div>
-      <v-img src="https://res.cloudinary.com/colinhdd/image/upload/v1615593660/drew-dau-GA2sc8nIOsk-unsplash_rasqdk.jpg"></v-img>
+      <v-img style="border-radius: 5px;" src="https://res.cloudinary.com/colinhdd/image/upload/v1615593660/drew-dau-GA2sc8nIOsk-unsplash_rasqdk.jpg"></v-img>
     </div>
   </v-col>
   <v-col cols="12" md="4">
@@ -159,7 +159,7 @@ instruction, affordability and passion for swimming will drive us forward to ach
 <v-row no-gutters justify="center" align="center">
       <v-col cols="12" md="4" order-md="2">
     <div>
-      <v-img src="https://res.cloudinary.com/colinhdd/image/upload/v1615593206/bg3_1_bgheq8.jpg"></v-img>
+      <v-img style="border-radius: 5px;" src="https://res.cloudinary.com/colinhdd/image/upload/v1615593206/bg3_1_bgheq8.jpg"></v-img>
     </div>
   </v-col>
 
@@ -241,7 +241,8 @@ export default {
 
   data: () => ({
       items: [
-        { text: '1 (876) 123-4567', icon: 'mdi-phone' },
+        { text: '1 876 869 4889', icon: 'mdi-phone' },
+        { text: '1 876 513 7894', icon: 'mdi-phone' },
         { text: 'islandbluepools@gmail.com', icon: 'mdi-email' },
         { text: '62, 8 Shortwood Rd, Kingston', icon: 'mdi-map-marker' },
       ],
