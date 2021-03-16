@@ -134,7 +134,7 @@ choose.
 
     </v-container>
 
-     <a href="https://form.jotform.com/210708471092856" class="title d-block py-6 my-6 text-decoration-none text-center">Join Our Learn To Swim Programme</a>
+     <a target="blank" href="https://form.jotform.com/210708471092856" class="title d-block py-6 my-6 text-decoration-none text-center">Join Our Learn To Swim Programme</a>
 
      <div style="background-color: #fff" class="text-center">
        <p class="display-1 text--primary mb-0 px-md-16 mx-md-12 mt-16">
